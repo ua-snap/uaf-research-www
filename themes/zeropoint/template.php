@@ -157,6 +157,8 @@ if(theme_get_setting('headerimg')) {
       drupal_add_js(drupal_get_path('theme', 'zeropoint').'/js/slide.js', array('group' => JS_THEME));
     }
   }
+
+  drupal_add_css(drupal_get_path('theme','zeropoint').'/css/uaf-research.css', array('group' => CSS_DEFAULT, 'every_page' => TRUE, 'weight' => 10));
 }
 
 
