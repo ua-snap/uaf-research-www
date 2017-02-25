@@ -23,6 +23,8 @@ To pull the latest code from the `master` branch of this repository and recompil
    cd ~/docker/uaf-research/sites
    git clone https://github.com/ua-snap/uaf-research-www.git
    mv uaf-research-www all
+   cd ~/docker/uaf-research/sites/all/themes/zeropoint/compass
+   compass compile
    cd ~/docker/uaf-research/sites/default
    tar -jxvf ~/Downloads/files-uaf-research.bz2
    chmod -R 777 files
